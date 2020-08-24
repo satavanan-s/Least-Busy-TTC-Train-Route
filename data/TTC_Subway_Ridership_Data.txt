@@ -1,0 +1,76 @@
+75
+Downsview Park:2520
+Finch West:17660
+York University:34130
+Pioneer Village:17320
+Highway 407:3440
+Vaughan Metro Centre:14790
+Bayview:8530
+Bessarion:2990
+Leslie:5990
+Don Mills:37050
+Sheppard West:41600
+North York Centre:25380
+Lawrence East:7930
+Ellesmere:1770
+Midland:2440
+Scarborough Centre:23050
+McCowan:3860
+Kennedy:111190
+Kipling:49340
+Spadina:44560
+Dupont:8500
+St. Clair West:27980
+Eglinton West:21430
+Glencairn:6940
+Lawrence West:19740
+Yorkdale:22860
+Wilson:29260
+Sheppard-Yonge:125470
+Finch:99350
+York Mills:29660
+Lawrence:22340
+Islington:41270
+Royal York:22800
+Old Mill:7750
+Jane:20110
+Runnymede:20110
+High Park:12080
+Main Street:23950
+Victoria Park:30780
+Warden:39980
+Keele:16990
+Dundas West:27540
+Lansdowne:19000
+Dufferin:28620
+Ossington:30100
+Christie:12510
+Bathurst:26900
+Bay:32690
+Sherbourne:31030
+Castle Frank:9760
+Broadview:32670
+Chester:5800
+Pape:27080
+Donlands:11250
+Greenwood:11080
+Coxwell:15480
+Woodbine:14960
+St. George:256030
+St. Andrew:57480
+Osgoode:23670
+St. Patrick:34060
+Queen's Park:46470
+Museum:11840
+Bloor-Yonge:401090
+Eglinton:68520
+Davisville:25990
+St. Clair:36620
+Summerhill:5710
+Rosedale:7770
+Wellesley:23510
+College:44370
+Dundas:73560
+Queen:48700
+King:64730
+Union:143640
