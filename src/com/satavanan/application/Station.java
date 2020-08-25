@@ -7,6 +7,7 @@ public class Station {
     private int ridership;
     private String name;
     private int id;
+    private Station[] connectingStations;
 
     /** Creates an TTC Subway Station with a name, ID, and ridership data.
      * @param name The TTC Subway Station's name.
@@ -17,6 +18,15 @@ public class Station {
         this.name = name;
         this.ridership = ridership;
         this.id = id;
+        this.connectingStations = new Station[0];
+    }
+
+    public void setConnectingStations(Station[] connectingStations) {
+        this.connectingStations = connectingStations;
+    }
+
+    public Station[] getConnectingStations() {
+        return this.connectingStations;
     }
 
     /** Gets the TTC Subway Station’s ridership data.
@@ -40,4 +50,7 @@ public class Station {
         return this.id;
     }
 
+    public String toString(){
+        return this.getName();
+    }
 }
