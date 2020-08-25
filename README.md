@@ -6,9 +6,9 @@ This Java Program uses Dijkstra's Algorithm to find the path of the least human 
 <!-- toc -->
 <h2>How it works?</h2>
 Every instance of the Station class is a specific TTC Subway Station. 
-[The station class contains member fields for the Station name, ridership data, and a unique ID.](https://github.com/satavanan-s/Least-Busiest-TTC-Train-Route/blob/master/src/com/satavanan/application/Station.java "Station Class")
-Instead of being hardcoded the station and ridership data is in [text files located in the data folder](https://github.com/satavanan-s/Least-Busiest-TTC-Train-Route/tree/master/data "Data Location").
-The [main application](https://github.com/satavanan-s/Least-Busiest-TTC-Train-Route/blob/master/src/com/satavanan/application/Main.java "Program Entrypoint") reads the data in the text files, and 
+[The station class contains member fields for the Station name, ridership data, and a unique ID.](https://github.com/satavanan-s/Least-Busiest-TTC-Train-Route/blob/master/src/com/satavanan/application/Station.java)
+Instead of being hardcoded the station and ridership data is in [text files located in the data folder](https://github.com/satavanan-s/Least-Busiest-TTC-Train-Route/tree/master/data).
+The [main application](https://github.com/satavanan-s/Least-Busiest-TTC-Train-Route/blob/master/src/com/satavanan/application/Main.java) reads the data in the text files, and 
 represents the TTC Subway System as a weighted directed graph (adjacency list). The nodes of the graphs are the TTC Subway Stations,
 the edge represents a path from one station to another. The edges point in both directions but each direction has a different
 weight. The weight of all outgoing edges from a node is the number of people that ride the station per day. I've
