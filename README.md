@@ -1,5 +1,9 @@
 # Least-Busiest-TTC-Train-Route
 This Java Program uses Dijkstra's Algorithm to find the path of the least human contact (the least busy path) in the TTC Subway. 
+- [How it works?](#How it works?)
+- [Development Process and Testing](#Development Process and Testing)
+- [Documentation](#Documentation)
+<!-- toc -->
 <h2>How it works?</h2>
 Every instance of the Station class is a specific TTC Subway Station. 
 [The station class contains member fields for the Station name, ridership data, and a unique ID.](https://github.com/satavanan-s/Least-Busiest-TTC-Train-Route/blob/master/src/com/satavanan/application/Station.java "Station Class")
@@ -20,7 +24,7 @@ A to B that is weighted 8, and an edge from B to A that is weighted 2. <br><br>
 After representing the TTC Subway System, I obtain the user input (Starting and Destination Station)
 and apply Dijkstra's algorithm to find the path with the least cost (cost = number of humans in a Station).
 
-<h2>Development and Testing</h2>
+<h2>Development Process and Testing</h2>
 This project was built using the Test-driven development software development process.
 You will find corresponding tests to all the methods in the [tests folder](https://github.com/satavanan-s/Least-Busiest-TTC-Train-Route/tree/1/src/com/satavanan/tests "Tests Directory").
 
