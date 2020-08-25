@@ -1,15 +1,15 @@
 # Least-Busiest-TTC-Train-Route
 This Java Program uses Dijkstra's Algorithm to find the path of the least human contact (the least busy path) in the TTC Subway. 
-- [How it works?](#how-it-works)
+- [How it Works](#how-it-works)
 - [Development Process and Testing](#development-process-and-testing)
 - [Documentation](#Documentation)
 
-<h2>How it works?</h2>
+<h2>How it Works</h2>
 
 Every instance of the Station class is a specific TTC Subway Station.
 [The station class contains member fields for the Station name, ridership data, and a unique ID.](https://github.com/satavanan-s/Least-Busiest-TTC-Train-Route/blob/master/src/com/satavanan/application/Station.java)
 Instead of being hardcoded the station and ridership data is in [text files located in the data folder](https://github.com/satavanan-s/Least-Busiest-TTC-Train-Route/tree/master/data).
-The [main application](https://github.com/satavanan-s/Least-Busiest-TTC-Train-Route/blob/master/src/com/satavanan/application/Main.java) reads the data in the text files, and 
+The [main application](https://github.com/satavanan-s/Least-Busiest-TTC-Train-Route/blob/master/src/com/satavanan/application/Main.java) reads the data in the text files and 
 represents the TTC Subway System as a weighted directed graph (adjacency list). The nodes of the graphs are the TTC Subway Stations,
 the edge represents a path from one station to another. The edges point in both directions but each direction has a different
 weight. The weight of all outgoing edges from a node is the number of people that ride the station per day. I've
@@ -23,7 +23,7 @@ Station B with a daily ridership of 2. ...
 If Station A and Station B are connected then there will be an edge from
 A to B that is weighted 8, and an edge from B to A that is weighted 2.
 
-<h3>This means we assume the number of people at a station equals the number of people waiting and boarding for a train.</h3>
+<h3>This means we're assuming that the number of people at a station is equivalent to the number of people boarding the train.</h3>
 
 After representing the TTC Subway System, I obtain the user input (Starting and Destination Station)
 and apply Dijkstra's algorithm to find the path with the least cost (cost = number of humans in a Station).
