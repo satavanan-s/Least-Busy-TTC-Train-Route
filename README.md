@@ -1,5 +1,6 @@
 # Least-Busiest-TTC-Train-Route
 This Java Program uses Dijkstra's Algorithm to find the path of the least human contact (the least busy path) in the TTC Subway. 
+##Table of Contents
 - [How it works?](#how-it-works)
 - [Development Process and Testing](#development-process-and-testing)
 - [Documentation](#Documentation)
