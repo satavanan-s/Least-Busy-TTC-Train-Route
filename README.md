@@ -22,9 +22,7 @@ Assume we have: Station A with a daily ridership of 8,
 Station B with a daily ridership of 2. ...
 If Station A and Station B are connected then there will be an edge from
 A to B that is weighted 8, and an edge from B to A that is weighted 2. <br><br>
-<h5>**This means we assume the number of people at a station equals the number of people waiting and boarding for a train.**</h5>
-
-
+<h3>This means we assume the number of people at a station equals the number of people waiting and boarding for a train.</h3>
 
 After representing the TTC Subway System, I obtain the user input (Starting and Destination Station)
 and apply Dijkstra's algorithm to find the path with the least cost (cost = number of humans in a Station).
