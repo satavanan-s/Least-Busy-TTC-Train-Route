@@ -2,7 +2,8 @@
 This Java Program uses Dijkstra's Algorithm to find the path of the least human contact (the least busy path) in the TTC Subway. 
 - [How it Works](#how-it-works)
 - [Development Process and Testing](#development-process-and-testing)
-- [Documentation](#Documentation)
+- [Documentation](#documentation)
+- [Data Sources](#data-sources)
 
 <h2>How it Works</h2>
 
@@ -36,3 +37,10 @@ You will find corresponding tests to all the methods in the [tests folder](https
 <h2>Documentation</h2>
 
 The documentation for this project was written for the Javadoc tool. [Here is the guide I followed.](https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html)
+
+## [Data](https://github.com/satavanan-s/Least-Busy-TTC-Train-Route/tree/master/data) Sources
+
+- [TTC_Subway_Ridership_Data.txt](https://github.com/satavanan-s/Least-Busy-TTC-Train-Route/blob/master/data/TTC_Subway_Ridership_Data.txt)
+  * [The TTC ridership data was scraped from this document.](http://www.ttc.ca/PDF/Transit_Planning/Subway%20ridership%20-%202018.pdf)
+- [TTC_Subway_Lines.txt](https://github.com/satavanan-s/Least-Busy-TTC-Train-Route/blob/master/data/TTC_Subway_Lines.txt)
+  * [The TTC line data was scraped from this document.](https://www.ttc.ca/Subway/index.jsp)
